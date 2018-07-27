@@ -1,0 +1,57 @@
+ /* Degradê */
+ /* #box {
+  width: 250px;
+  height: 250px;
+  background:url("./camera.png");
+  color:white;
+} 
+#box h1{
+  background:rgba(255, 255, 255,0,2);
+  color: black;
+  border-bottom:2px solid #fff;
+} 
+/* #box {
+  width: 250px;
+  height: 250px;
+  /* background:linear-gradient(50deg, red,yellow); */
+  /* background:radial-gradient(red,yellow, red,yellow); */
+/* } */
+/* Sombras */
+/* #box {
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  background:#009670;
+  padding: 8px;
+  /* box-shadow: 10px 10px 20px 2px black; */
+  /* box-shadow: 10px 10px 2px black, -10px -10px 2px blue ;
+} 
+#box h1{
+color: white; */
+/* font-size: 60px; */
+/* text-shadow: 5px 7px 13px black; */
+/* text-shadow: 20px 20px rgba(0,0,0,0.5); */
+/* text-shadow: 4px 4px black;
+} 
+#box p {
+  color: white;
+  font-size: 20px;
+  text-shadow: 3px 3px black;
+}  */
+/* Animação */
+@keyframes animacao-box {
+  from{background:red; border-radius: 0px; top:0; left:0}
+  to{background: yellow; border-radius: 300px;top:200px; left:200px}
+}
+#box-animacao {
+  background: red;
+  width: 300px;
+  height: 300px;
+  position:relative;
+  animation-name: animacao-box;
+  animation-duration: 5s;
+  animation-delay:1s; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* animation: animation-box 5s 2s infinite alternate; */
+}
